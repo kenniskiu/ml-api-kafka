@@ -19,7 +19,7 @@ async def send_one():
     try:
         # produce message
         msg_id = f'{randint(1, 10000)}'
-        value = {'message_id': msg_id, 'text': 'some text', 'name': "Jennifer"}
+        value = {'message_id': msg_id, 'text': 'some text', 'name': "Sam"}
         print(f'Sending message with value: {value}')
         value_json = json.dumps(value).encode('utf-8')
         await producer.send_and_wait(KAFKA_TOPIC, value_json)
