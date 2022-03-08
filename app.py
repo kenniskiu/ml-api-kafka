@@ -94,7 +94,7 @@ async def initialize():
         value = json.loads(msg.value)
         name = value['name']
         prediction = await predict(name)
-        print(prediction)
+        print(prediction) # run the function to predict
         # update the API state
         _update_name(prediction)
         return
