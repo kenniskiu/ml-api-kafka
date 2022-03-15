@@ -61,3 +61,4 @@
 [2022-03-08 21:07:50,433] INFO [Broker id=0] Leader __consumer_offsets-28 starts at leader epoch 0 from offset 16 with high watermark 16 ISR [0] addingReplicas [] removingReplicas []. Previous leader epoch was -1. (state.change.logger)
 [2022-03-08 21:07:50,490] INFO [Broker id=0] Finished LeaderAndIsr request in 7383ms correlationId 1 from controller 0 for 55 partitions (state.change.logger)
 [2022-03-08 21:07:50,506] INFO [Broker id=0] Add 55 partitions and deleted 0 partitions from metadata cache in response to UpdateMetadata request sent by controller 0 epoch 13 with correlation id 2 (state.change.logger)
+[2022-03-08 21:32:54,694] INFO [Controller id=0 epoch=13] Sending UpdateMetadata request to brokers HashSet() for 0 partitions (state.change.logger)
